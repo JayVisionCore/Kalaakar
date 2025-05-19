@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalaakar</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="language-currency-bar">
+  <select id="languageSelect" onchange="changeLanguage(this.value)">
+    <option value="en">🇬🇧 English</option>
+    <option value="hi">🇮🇳 Hindi</option>
+    <option value="fr">🇫🇷 French</option>
+  </select>
+
+  <select id="currencySelect" onchange="changeCurrency(this.value)">
+    <option value="INR">₹ INR</option>
+    <option value="USD">$ USD</option>
+    <option value="EUR">€ EUR</option>
+  </select>
+</div>
+
+<h1 id="welcomeText">Welcome to Kalaakar</h1>
+<p id="taglineText">Elevate your fashion with art</p>
+<p id="priceTag">₹1,999</p>
+
+<script src="script.js"></script>
+</body>
+</html>
